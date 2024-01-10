@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="julekort.css">
+  <title>Julekort Skaper</title>
+</head>
+
+<body>
+  <h1 class="overskrift">vellkomen til julekortlager </h1>
+  <div class="logo">
+    <img src="image/jul-22-fakta.jpg" alt="logo">
+  </div>
+
+  <div class="card-container">
+    <h1>God jul!</h1>
+    <h2>Overskrift:</h2>
+    <input type="text" id="cardTitle" placeholder="Skriv overskrift">
+
+    <h2>Tekst:</h2>
+    <textarea id="cardText" placeholder="Skriv teksten her"></textarea>
+
+    <h2>Fra:</h2>
+    <input type="text" id="cardFrom" placeholder="Ditt navn">
+
+    <h2>Til:</h2>
+    <input type="text" id="cardTo" placeholder="Mottakerens navn">
+
+    <h2>Velg bilde:</h2>
+    <input type="file" id="imageInput" accept="image/*">
+
+    <h2>Velg farge:</h2>
+    <input type="color" id="colorPicker">
+
+    <button onclick="createCard()">Lag Kort</button>
+
+    <button id="printButton" onclick="printCard()" style="display:none;">Print Kort</button>
+  </div>
+
+  <div id="result"></div>
+  <div class="logo2">
+    <img src="image/merry-christmas-wallpaper-design_79603-2129.avif" alt="logo2">
+  </div>
+
+  <script src="juekort.js"></script>
+</body>
+
+</html>

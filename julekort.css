@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #9f0000;
+  margin: 0;
+  display: flex;
+  flex-direction: column; /* Endre retningen til kolonne for å sentrere vertikalt */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.overskrift {
+  font-size: 50px;
+  margin:0;
+  text-align: center;
+  color: azure;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-container {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin: 0px; 
+  height: 650px;
+  width: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#result img {
+  max-width: 100%;
+  height: auto;
+  max-height: 150px;
+  margin-top: 10px;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.logo img {
+  width: 300px;
+  height: 300px;
+}
+
+.logo2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.logo2 img {
+  width: 300px;
+  height: 300px;
+}
